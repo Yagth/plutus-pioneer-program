@@ -7,25 +7,22 @@
 module FortyTwo where
 
 import qualified Plutus.V2.Ledger.Api as PlutusV2
-import           PlutusTx             (BuiltinData, compile)
-import           PlutusTx.Builtins    as Builtins (mkI)
-import           PlutusTx.Prelude     (otherwise, traceError, (==))
+import           PlutusTx             (compile)
+import           PlutusTx.Prelude     ((==), traceIfFalse, Bool, Integer, ($))
 import           Prelude              (IO)
-import           Utilities            (writeValidatorToFile)
+import           Utilities            (writeValidatorToFile, wrapValidator)
 
 ---------------------------------------------------------------------------------------------------
 ----------------------------------- ON-CHAIN / VALIDATOR ------------------------------------------
 
 -- This validator succeeds only if the redeemer is 42
 --                  Datum         Redeemer     ScriptContext
-mk42Validator :: BuiltinData -> BuiltinData -> BuiltinData -> ()
-mk42Validator _ r _
-    | r == Builtins.mkI 42 = ()
-    | otherwise            = traceError "expected 42"
+mk42Validator :: () -> Integer -> PlutusV2.ScriptContext -> Bool
+mk42Validator _ r _ = traceIfFalse "expected 42" $ r == 42
 {-# INLINABLE mk42Validator #-}
 
 validator :: PlutusV2.Validator
-validator = PlutusV2.mkValidatorScript $$(PlutusTx.compile [|| mk42Validator ||])
+validator = PlutusV2.mkValidatorScript $$(PlutusTx.compile [|| wrapValidator mk42Validator ||])
 
 ---------------------------------------------------------------------------------------------------
 ------------------------------------- HELPER FUNCTIONS --------------------------------------------

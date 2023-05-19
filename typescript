@@ -1,0 +1,594 @@
+Script started on 2023-05-19 12:24:04+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="182" LINES="16"]
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# ls
+README.md  [0m[01;34mcardano-private-testnet-setup[0m  [01;34mcode[0m  [01;34mdocs[0m  [01;34mscripts[0m  typescript
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# cd scripts/
+]0;root@8078b7c5a56c: /workspace/scriptsroot@8078b7c5a56c:/workspace/scripts# ls
+[0m[01;32malias-serve-docs-demeter.sh[0m  [01;32mcreate-key-pair.sh[0m  [01;32mquery-address.sh[0m  [01;32mquery-tip.sh[0m
+]0;root@8078b7c5a56c: /workspace/scriptsroot@8078b7c5a56c:/workspace/scripts# vd    cd ..
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# ls
+README.md  [0m[01;34mcardano-private-testnet-setup[0m  [01;34mcode[0m  [01;34mdocs[0m  [01;34mscripts[0m  typescript
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# code      cd code  
+]0;root@8078b7c5a56c: /workspace/coderoot@8078b7c5a56c:/workspace/code# ls
+[0m[01;34mUtilities[0m  [01;34mWeek01[0m  [01;34mWeek02[0m  [01;34mWeek03[0m  [01;34mWeek04[0m  [01;34mWeek05[0m  [01;34mWeek06[0m  [01;34mWeek07[0m  [01;34mWeek08[0m  [01;34mWeek09[0m  cabal.project  [01;34mdist-newstyle[0m  [01;34mnix[0m
+]0;root@8078b7c5a56c: /workspace/coderoot@8078b7c5a56c:/workspace/code# cd nix
+]0;root@8078b7c5a56c: /workspace/code/nixroot@8078b7c5a56c:/workspace/code/nix# ls
+sources.json  sources.nix
+]0;root@8078b7c5a56c: /workspace/code/nixroot@8078b7c5a56c:/workspace/code/nix# cd ..
+]0;root@8078b7c5a56c: /workspace/coderoot@8078b7c5a56c:/workspace/code# ls
+[0m[01;34mUtilities[0m  [01;34mWeek01[0m  [01;34mWeek02[0m  [01;34mWeek03[0m  [01;34mWeek04[0m  [01;34mWeek05[0m  [01;34mWeek06[0m  [01;34mWeek07[0m  [01;34mWeek08[0m  [01;34mWeek09[0m  cabal.project  [01;34mdist-newstyle[0m  [01;34mnix[0m
+]0;root@8078b7c5a56c: /workspace/coderoot@8078b7c5a56c:/workspace/code# cd   Utilities/
+]0;root@8078b7c5a56c: /workspace/code/Utilitiesroot@8078b7c5a56c:/workspace/code/Utilities# ls
+Utilities.cabal  hie.yaml  [0m[01;34msrc[0m
+]0;root@8078b7c5a56c: /workspace/code/Utilitiesroot@8078b7c5a56c:/workspace/code/Utilities# cd src
+]0;root@8078b7c5a56c: /workspace/code/Utilities/srcroot@8078b7c5a56c:/workspace/code/Utilities/src# ls
+[0m[01;34mUtilities[0m  Utilities.hs
+]0;root@8078b7c5a56c: /workspace/code/Utilities/srcroot@8078b7c5a56c:/workspace/code/Utilities/src# cd Utilities
+]0;root@8078b7c5a56c: /workspace/code/Utilities/src/Utilitiesroot@8078b7c5a56c:/workspace/code/Utilities/src/Utilities# ls
+Conversions.hs  PlutusTx.hs  Serialise.hs
+]0;root@8078b7c5a56c: /workspace/code/Utilities/src/Utilitiesroot@8078b7c5a56c:/workspace/code/Utilities/src/Utilities# cd ../../../
+]0;root@8078b7c5a56c: /workspace/coderoot@8078b7c5a56c:/workspace/code# ls
+[0m[01;34mUtilities[0m  [01;34mWeek01[0m  [01;34mWeek02[0m  [01;34mWeek03[0m  [01;34mWeek04[0m  [01;34mWeek05[0m  [01;34mWeek06[0m  [01;34mWeek07[0m  [01;34mWeek08[0m  [01;34mWeek09[0m  cabal.project  [01;34mdist-newstyle[0m  [01;34mnix[0m
+]0;root@8078b7c5a56c: /workspace/coderoot@8078b7c5a56c:/workspace/code# cd ..
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# ls
+README.md  [0m[01;34mcardano-private-testnet-setup[0m  [01;34mcode[0m  [01;34mdocs[0m  [01;34mscripts[0m  typescript
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# cd cardano-private-testnet-setup/
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setuproot@8078b7c5a56c:/workspace/cardano-private-testnet-setup# ls
+1-INSTALL_EXECUTABLES.md  3-RUN_NETWORK_SCRIPTS.md  5-RUN_TRANSACTION.md  [0m[01;32mREADME.md[0m      [01;34mpostgres-conn[0m   [01;34mscripts[0m    [01;34mtest[0m
+2-INSTALL_POSTGRESQL.md   4-ATTACH_DB_SYNC.md       [01;32mLICENSE[0m               [01;34mconfiguration[0m  [01;34mscript-example[0m  [01;34mtemplates[0m
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setuproot@8078b7c5a56c:/workspace/cardano-private-testnet-setup# cd script-s example/
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-exampleroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example# kls
+bash: kls: command not found
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-exampleroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example# ls
+[0m[01;34mproject[0m
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-exampleroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example# cd project/
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-example/projectroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example/project# ls
+LICENSE  cabal.project  hie.yaml  [0m[01;34mout[0m  script-example.cabal  [01;34msrc[0m
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-example/projectroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example/project# cd out
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-example/project/outroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example/project/out# ls
+readme.md
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-example/project/outroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example/project/out# cd ../src/
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-example/project/srcroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example/project/src# ls
+[0m[01;34mExample[0m
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-example/project/srcroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example/project/src# cd em  Example/
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-example/project/src/Exampleroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example/project/src/Example# ls
+DeployVesting.hs  Vesting.hs
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-example/project/src/Exampleroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example/project/src/Example# cd ../../../
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-exampleroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example# ls
+[0m[01;34mproject[0m
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-exampleroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example# cd Wee02[K[K../../
+bash: ../../: Is a directory
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-exampleroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example# ls
+[0m[01;34mproject[0m
+]0;root@8078b7c5a56c: /workspace/cardano-private-testnet-setup/script-exampleroot@8078b7c5a56c:/workspace/cardano-private-testnet-setup/script-example# cd ../../
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kl kls   ls
+README.md  [0m[01;34mcardano-private-testnet-setup[0m  [01;34mcode[0m  [01;34mdocs[0m  [01;34mscripts[0m  typescript
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# cd codw e/WQe  eek02/Scr  
+bash: cd: code/Week02/S: No such file or directory
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# cd code/Week02/S 
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ls
+README.md  Week02.cabal  [0m[01;34massets[0m  hie.yaml  [01;34mhomework[0m  [01;34mlecture[0m  [01;34mscripts[0m  [01;34mtests[0m
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# script
+Script started, file is typescript
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# cd scripts  
+]0;root@8078b7c5a56c: /workspace/code/Week02/scriptsroot@8078b7c5a56c:/workspace/code/Week02/scripts# ls
+[0m[01;32mcollect-gift.sh[0m  [01;32mmake-gift.sh[0m
+]0;root@8078b7c5a56c: /workspace/code/Week02/scriptsroot@8078b7c5a56c:/workspace/code/Week02/scripts# c d/   cd  d /
+]0;root@8078b7c5a56c: /root@8078b7c5a56c:/# [Kls
+[0m[01;34mapp[0m  [01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m  [01;34mvscode[0m  [01;34mworkspace[0m
+]0;root@8078b7c5a56c: /root@8078b7c5a56c:/# start-node
+bash: start-node: command not found
+]0;root@8078b7c5a56c: /root@8078b7c5a56c:/# ls
+[0m[01;34mapp[0m  [01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib32[0m  [01;36mlib64[0m  [01;36mlibx32[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m  [01;34mvscode[0m  [01;34mworkspace[0m
+]0;root@8078b7c5a56c: /root@8078b7c5a56c:/# cd -
+/workspace/code/Week02/scripts
+]0;root@8078b7c5a56c: /workspace/code/Week02/scriptsroot@8078b7c5a56c:/workspace/code/Week02/scripts# ls
+[0m[01;32mcollect-gift.sh[0m  [01;32mmake-gift.sh[0m
+]0;root@8078b7c5a56c: /workspace/code/Week02/scriptsroot@8078b7c5a56c:/workspace/code/Week02/scripts# cd ..
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# start-node
+bash: start-node: command not found
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# source-d        ls -a
+[0m[01;34m.[0m  [01;34m..[0m  README.md  Week02.cabal  [01;34massets[0m  hie.yaml  [01;34mhomework[0m  [01;34mlecture[0m  [01;34mscripts[0m  [01;34mtests[0m  typescript
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# nano typescript 
+bash: nano: command not found
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# codet  typescript 
+bash: code: command not found
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# tm  rm typescript 
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# qu.   ../../../
+.dockerenv  bin/        dev/        home/       lib32/      libx32/     mnt/        proc/       run/        srv/        tmp/        var/        workspace/  
+app/        boot/       etc/        lib/        lib64/      media/      opt/        root/       sbin/       sys/        usr/        vscode/     
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ../../../
+.dockerenv  bin/        dev/        home/       lib32/      libx32/     mnt/        proc/       run/        srv/        tmp/        var/        workspace/  
+app/        boot/       etc/        lib/        lib64/      media/      opt/        root/       sbin/       sys/        usr/        vscode/     
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ../../../    /
+.devcontainer/                 .vscode/                       code/                          scripts/                       
+.git/                          cardano-private-testnet-setup/ docs/                          
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ../../scripts/query-tip.sh 
+{
+    "block": 787495,
+    "epoch": 206,
+    "era": "Babbage",
+    "hash": "4736bb11631f851a1d5aa277688031278c63c8964855295f65b76fd68c54ad68",
+    "slot": 17843501,
+    "syncProgress": "100.00"
+}
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ../../scripts/query-tip.sh 
+{
+    "block": 787497,
+    "epoch": 206,
+    "era": "Babbage",
+    "hash": "7019d2b8bbfe7243db46a9303d10448b99d67050feb4efdcab47ce835ad49dba",
+    "slot": 17843526,
+    "syncProgress": "100.00"
+}
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ../../scripts/query-tip.sh -tip[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@c[1@r[1@e[1@a[1@t[1@e[1@-[1@k[1@e[9@y-pair.sh[1P[1Ph ^[h [3~h [1Ph [1Ph [1Ph [2Ph [1P   A l i c [1P [1P [1P [1P A l i c e \ 
+wrote verification key to: /workspace/keys/Alice .vkey
+wrote signing key to: /workspace/keys/Alice .skey
+wrote address to: /workspace/keys/Alice .addr
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ../../scripts/create-key-pair.sh Alice\   
+wrote verification key to: /workspace/keys/Alice.vkey
+wrote signing key to: /workspace/keys/Alice.skey
+wrote address to: /workspace/keys/Alice.addr
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ../../scripts/create-key-pair.sh Alice
+verification key file /workspace/keys/Alice.vkey already exists
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ../../scripts/create-key-pair.sh Alice
+verification key file /workspace/keys/Alice.vkey already exists
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ../../scripts/create-key-pair.sh Alice\
+> ^C
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ../../scripts/create-key-pair.sh Alice\
+> 
+verification key file /workspace/keys/Alice.vkey already exists
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# [H[2J]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ../../scripts/create-key-pair.sh Alice\[K../../scripts/create-key-pair.sh Alice\\ [K[K../../scripts/create-key-pair.sh Alice[K pair[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@q[1@u[1@e[1@r[1@y[1@-[1@a[1@d[8@dress.sh[1P[1Ph[K $()c)a)t) )k)e)y)[1P)[1P)[1P)[1P)[1P)[1P)[1P).).)/).).)/)k)e)y)s/)a)l)i)c)e).)a)[1P)[1P)[1P)[1P)[1P)[1P)[1P)A)l)i)c)e).)a)d)d)r)
+bash: ../../keys/Alice.addr: Permission denied
+option --address: 
+unexpected end of input
+
+Usage: cardano-cli query utxo 
+            [ --shelley-mode
+            | --byron-mode [--epoch-slots NATURAL]
+            | --cardano-mode [--epoch-slots NATURAL]
+            ]
+            (--whole-utxo | (--address ADDRESS) | (--tx-in TX-IN))
+            (--mainnet | --testnet-magic NATURAL)
+            [--out-file FILE]
+
+  Get a portion of the current UTxO: by tx in, by address or the whole.
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# [K[H[2J]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# cd    ../../
+bash: ../../: Is a directory
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ls
+README.md  Week02.cabal  [0m[01;34massets[0m  hie.yaml  [01;34mhomework[0m  [01;34mlecture[0m  [01;34mscripts[0m  [01;34mtests[0m
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# cd ../ls../..//    
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# ls
+README.md  [0m[01;34mcardano-private-testnet-setup[0m  [01;34mcode[0m  [01;34mdocs[0m  [01;34mkeys[0m  [01;34mscripts[0m  typescript
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# scripts/query-aa ddress.sh $()c)a)t) )k)e)y)s)/)A)lice).)a)ddr)
+                           TxHash                                 TxIx        Amount
+--------------------------------------------------------------------------------------
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kscripts/query-address.sh $(cat keys/Alice.addr)[1@\[1P[1@ 
+cat: keys/Alice: No such file or directory
+cat: .addr: No such file or directory
+option --address: 
+unexpected end of input
+
+Usage: cardano-cli query utxo 
+            [ --shelley-mode
+            | --byron-mode [--epoch-slots NATURAL]
+            | --cardano-mode [--epoch-slots NATURAL]
+            ]
+            (--whole-utxo | (--address ADDRESS) | (--tx-in TX-IN))
+            (--mainnet | --testnet-magic NATURAL)
+            [--out-file FILE]
+
+  Get a portion of the current UTxO: by tx in, by address or the whole.
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kscripts/query-address.sh $(cat keys/Alice .addr)[1P[1@\
+                           TxHash                                 TxIx        Amount
+--------------------------------------------------------------------------------------
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kls
+README.md  [0m[01;34mcardano-private-testnet-setup[0m  [01;34mcode[0m  [01;34mdocs[0m  [01;34mkeys[0m  [01;34mscripts[0m  typescript
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# scripts/create-key-pair.sh 
+expected name as argument
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# scripts/create-key-pair.sh alice
+wrote verification key to: /workspace/keys/alice.vkey
+wrote signing key to: /workspace/keys/alice.skey
+wrote address to: /workspace/keys/alice.addr
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# scripts/create-key-pair.sh alice[Kbob
+wrote verification key to: /workspace/keys/bob.vkey
+wrote signing key to: /workspace/keys/bob.skey
+wrote address to: /workspace/keys/bob.addr
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# scripts/query-address.sh alice
+option --address: 
+unexpected end of input
+invalid address: alice
+
+Usage: cardano-cli query utxo 
+            [ --shelley-mode
+            | --byron-mode [--epoch-slots NATURAL]
+            | --cardano-mode [--epoch-slots NATURAL]
+            ]
+            (--whole-utxo | (--address ADDRESS) | (--tx-in TX-IN))
+            (--mainnet | --testnet-magic NATURAL)
+            [--out-file FILE]
+
+  Get a portion of the current UTxO: by tx in, by address or the whole.
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# scripts/query-address.sh alice       $()c)a)t) )k)e)y)s)/)a)l)ice.)a)d)dr)
+                           TxHash                                 TxIx        Amount
+--------------------------------------------------------------------------------------
+1741317ba1746f4c66eb00f68ba322edab9da4d84ac75d959a68f225d1957822     0        10000000000 lovelace + TxOutDatumNone
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kcode/Week02/sci ripts/make-gift.sh alice 1741317ba1746f4c66eb00f68ba322edab9da4d84ac75d959a68f225d1957822@ $ #0
+Estimated transaction fee: Lovelace 166117
+Transaction successfully submitted.
+transaction id: 315ea7d17ccaa4503f4a37dacc3a59a6a24452c8624f5f746477cdfcbb4f1b45
+Cardanoscan: https://preview.cardanoscan.io/transaction/315ea7d17ccaa4503f4a37dacc3a59a6a24452c8624f5f746477cdfcbb4f1b45
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kscripts/query-address.sh $(cat keys/bob.addr)
+                           TxHash                                 TxIx        Amount
+--------------------------------------------------------------------------------------
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kscripts/query-address.sh $(cat keys/bob.addr)code/Week02/scripts/make-gift.sh alice 1741317ba1746f4c66eb00f68ba322edab9da4d84ac75d959a68f225d1957822#0[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@c[1@o[1@l[1@l[1@e [1@ [1@c[1@t[1@-[1@f[1P[1@g[1@i[1@f[1@t[1@.[1@s[1@h  alice 1741317ba1746f4c66eb00f68ba322edab9da4d84ac75d959a68f225d1957822#0[K[K[K^C
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# ae  scripts/query-address.sh $(cat code/Week02/assets/gift.. addr  )
+                           TxHash                                 TxIx        Amount
+--------------------------------------------------------------------------------------
+04b8a21f6d6bb7a9547b66122e2d3f09374ec057664399c97e2d274913809bf9     0        9201850 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b050617274206f66205075626b65792068657265 + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [ScriptDataMap [(ScriptDataBytes "name",ScriptDataBytes "Plutus Pioneer Certificate of Thomas"),(ScriptDataBytes "image",ScriptDataBytes "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iODUwIiB4bWxuczp2PSJodHRwczovL3ZlY3RhLmlvL25hbm8iPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iQSIgeDE9IjI4LjUiIHkxPSIyNzIuMjUiIHgyPSI1MjguNSIgeTI9IjI3Mi4yNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZmlsbD0iIzFjMTczNyIgZD0iTTAgMGg2MDB2ODUwSDB6Ii8+PHBhdGggZD0iTTMyMy45OCAwTDI3MCA3My4zMjhsMjE4LjcgMzA2LjY3TDYwMCAzNDQuNjY2Vi0uMDA0SDMyMy45OHoiIGZpbGw9IiMyNDNjNjIiLz48ZyB0cmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAuOTk5OCAyMS41IDI3LjgwNCkiIGZpbGw9IiNmZmYiPjxwYXRoIGQ9Ik0xMTguMiAyMDYuMWg0NC45djMxNi4yaC00NC45eiIvPjxyYWRpYWxHcmFkaWVudCAgY3g9IjI3OC41MiIgY3k9IjI3Mi4yNSIgcj0iMjUwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZmlsbD0idXJsKCNBKSIgZmlsbC1vcGFjaXR5PSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjZmZmIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjMWE3OWFlIiBvZmZzZXQ9Ii42Ii8+PHN0b3Agc3RvcC1jb2xvcj0iIzE3NDZhMCIgb2Zmc2V0PSIxIi8+PC9yYWRpYWxHcmFkaWVudD48cGF0aCBkPSJNMjguNSAyMi40djQ5OS44SDczVjE2Mi42aDMxMy40VjM4MEgyOTh2NTMuOGgxMzguOFYxMTIuOUg3M1Y3Mmg0MDUuNHY0MDAuMUgyNTh2LTQwLjdsLjUtNDkuMXYtNDMuMWg0NS4zbDIuNS0uMWgzOC40VjIwNC4ySDIwOS40djMxOGgzMTkuMXYtNTAwem0yNjkuMSAyMzEuOHYzNS45aC0zOS4ydi0zNS45eiIvPjwvZz48dGV4dCB0cmFuc2Zvcm09InNjYWxlKDEuMDAwMSAuOTk5ODkpIiB4PSIzMDAuMTA4IiB5PSI2NzQuMDU4IiBmaWxsPSIjZmZmIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSI5OS42OTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIHhtbDpzcGFjZT0icHJlc2VydmUiPjx0c3BhbiB4PSIzMDAuMTA4IiB5PSI2NzQuMDU4Ij5QTFVUVVM8L3RzcGFuPjx0c3BhbiB4PSIzMDAuMTA4IiB5PSI3OTguNjc3Ij5DRVJUSUZJRUQ8L3RzcGFuPjwvdGV4dD48L3N2Zz4="),(ScriptDataBytes "description",ScriptDataBytes "Awarded for the completion of the Plutus Pioneer program exam")]])
+05b0b1ed86324ab641e24f701c53bfa60ec648b5022105aadb0086cc41b348f5     1        7827290 lovelace + TxOutDatumNone
+0698953f3a8ddae773a18b6e06dbe1f2f22a8566a793353e8385484b6b1b2d67     0        200000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+1013477e76d2f04dcf61138f98c20eb9d8226b287aba07d928129509180e0755     0        2000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "48b2e80716b437d3d4258db67e9c731b0e5192f79e120e4013b4fc7f57ecfb24"
+153b21aacc0f130a848420dab285687e4fd33c7bd1ec683194376f209dcce775     0        1288690 lovelace + 1 985cb9857978fd2ca9dec7270c073dac47467aa97f53b48b7aa50b43.000643b027fa9b2ac96b35829b84f16a913f1e22fabd4a792ab0b7537f9a74a8 + TxOutDatumHash ScriptDataInBabbageEra "f5a2e43bbb27372802a32251ee3f52db49d20f5388ef1677624d5b1e1e634b3e"
+1cec1ee7d899de048e0a38b4879d2406920469c0720ecaa9764b38cc434c44df     0        200000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "9e1199a988ba72ffd6e9c269cadb3b53b5f360ff99f112d9b2ee30c4d74ad88b"
+1ed08badbfdab880b636645f81af29e0e4237bb61138c30824ecbd74cf022610     0        2000161 lovelace + TxOutDatumNone
+1edc0865dd42b88068845edb1b81786e68ce81427a7308fe690352720f7062fd     0        1206800 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b05055424b455948455245 + TxOutDatumHash ScriptDataInBabbageEra "ca4ded492b1d061a749b9aa0a8b71550312cb86df9289b9682cb5a35c9b60bbe"
+20117f953462d1dae7cc7619bf7c34ed209567407a4f646452bdaad4075e68fb     0        2400161 lovelace + TxOutDatumNone
+228cab0531c7ece36c654f5ff031bcb0278005a6fbb4a14628f6a74154ccd150     0        4314310 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b0696e6a65637454657374 + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [ScriptDataMap [(ScriptDataBytes "name",ScriptDataBytes "Plutus Pioneer Certificate oftttt"),(ScriptDataBytes "image",ScriptDataBytes "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgoKPHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICA8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjEwMCIgc3R5bGU9ImZpbGw6cmdiKDAsMCwyNTUpO3N0cm9rZS13aWR0aDozO3N0cm9rZTpyZ2IoMCwwLDApIiAvPgogICAgPHNjcmlwdCBub25jZT0ickFuZDBtIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPjwhW0NEQVRBWwogICAgICAgIGNvbnNvbGUubG9nKCJISSBmcm9tIG5hbWkiKTsKICAgIF1dPjwvc2NyaXB0Pgo8L3N2Zz4K"),(ScriptDataBytes "description",ScriptDataBytes "Awarded for the completion of the Plutus Pioneer program exam")]])
+30386636cd6ed81bd2f6febbca52c33c91a56d47bee3b8ae4bdf9911fc8b8026     0        100000000 lovelace + TxOutDatumNone
+30653d4e96f6c2b065dda845c1129065462e27ed00dde26ac29e2d4135f563cb     0        1038710 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.416c626572744e4654 + TxOutDatumNone
+315ea7d17ccaa4503f4a37dacc3a59a6a24452c8624f5f746477cdfcbb4f1b45     0        3000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [])
+33329b99ee88a2a122dbbe87ea8f82c621f62b9bd12faa20a3d92116d616858f     0        2000161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+3477379a363a5f2bd7c4240f9c74e683767ad8c5fbad30ad0bd5e9da5d9b642c     0        20000000 lovelace + TxOutDatumNone
+3b011cd219952d42f0faacef97a9fddfae87443ec43ec577790dd63b77020dd6     0        4400080 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+46fea6905ea30a3569307aa2e0da20bd30a7da081dc9e486d67b060a8aba83d4     0        200000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataNumber 42)
+4dc3f57604e1bb795ab71abcb066ae5dcd05b5b6f174e51796e785c54d535926     0        2222222 lovelace + TxOutDatumNone
+50ffd376666497ecb9d2b80d91396d1fbf5a97aed669aaa2a6c2c3f517d7b62e     0        2000000 lovelace + TxOutDatumNone
+53d0fc55abc5f8b5c914f562e2dba429d506d7e6c9112c5be5b582b8b8ab22a2     0        2400161 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataNumber 42)
+53d81c1100ed578e08ec49153fc4b566065cdfe5d2d2fbb66344f2b6b210e64d     0        1206800 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b05050502054686f6d6173 + TxOutDatumHash ScriptDataInBabbageEra "7b8d1eec1080955905f10d484ddd0260797b66c15c59b7b557ac0ab0ede655a8"
+56a6ae8d76ad2b4a6c2625f6b5b30fac4de66372991a7392b333ba2d6418698a     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "9e1199a988ba72ffd6e9c269cadb3b53b5f360ff99f112d9b2ee30c4d74ad88b"
+5ac08ad3f08452f5a42a1ad7819d171b9d1d2ff32d5d98102c349c039ff848a8     0        9232020 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b050617274206f66205075626b65792068656572657265727265 + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [ScriptDataMap [(ScriptDataBytes "name",ScriptDataBytes "Plutus Pioneer Certificate of Thomas"),(ScriptDataBytes "image",ScriptDataBytes "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iODUwIiB4bWxuczp2PSJodHRwczovL3ZlY3RhLmlvL25hbm8iPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iQSIgeDE9IjI4LjUiIHkxPSIyNzIuMjUiIHgyPSI1MjguNSIgeTI9IjI3Mi4yNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZmlsbD0iIzFjMTczNyIgZD0iTTAgMGg2MDB2ODUwSDB6Ii8+PHBhdGggZD0iTTMyMy45OCAwTDI3MCA3My4zMjhsMjE4LjcgMzA2LjY3TDYwMCAzNDQuNjY2Vi0uMDA0SDMyMy45OHoiIGZpbGw9IiMyNDNjNjIiLz48ZyB0cmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAuOTk5OCAyMS41IDI3LjgwNCkiIGZpbGw9IiNmZmYiPjxwYXRoIGQ9Ik0xMTguMiAyMDYuMWg0NC45djMxNi4yaC00NC45eiIvPjxyYWRpYWxHcmFkaWVudCAgY3g9IjI3OC41MiIgY3k9IjI3Mi4yNSIgcj0iMjUwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZmlsbD0idXJsKCNBKSIgZmlsbC1vcGFjaXR5PSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjZmZmIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjMWE3OWFlIiBvZmZzZXQ9Ii42Ii8+PHN0b3Agc3RvcC1jb2xvcj0iIzE3NDZhMCIgb2Zmc2V0PSIxIi8+PC9yYWRpYWxHcmFkaWVudD48cGF0aCBkPSJNMjguNSAyMi40djQ5OS44SDczVjE2Mi42aDMxMy40VjM4MEgyOTh2NTMuOGgxMzguOFYxMTIuOUg3M1Y3Mmg0MDUuNHY0MDAuMUgyNTh2LTQwLjdsLjUtNDkuMXYtNDMuMWg0NS4zbDIuNS0uMWgzOC40VjIwNC4ySDIwOS40djMxOGgzMTkuMXYtNTAwem0yNjkuMSAyMzEuOHYzNS45aC0zOS4ydi0zNS45eiIvPjwvZz48dGV4dCB0cmFuc2Zvcm09InNjYWxlKDEuMDAwMSAuOTk5ODkpIiB4PSIzMDAuMTA4IiB5PSI2NzQuMDU4IiBmaWxsPSIjZmZmIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSI5OS42OTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIHhtbDpzcGFjZT0icHJlc2VydmUiPjx0c3BhbiB4PSIzMDAuMTA4IiB5PSI2NzQuMDU4Ij5QTFVUVVM8L3RzcGFuPjx0c3BhbiB4PSIzMDAuMTA4IiB5PSI3OTguNjc3Ij5DRVJUSUZJRUQ8L3RzcGFuPjwvdGV4dD48L3N2Zz4="),(ScriptDataBytes "description",ScriptDataBytes "Awarded for the completion of the Plutus Pioneer program exam")]])
+5cd1ccf859cf2f86cf9e7ee1e6aa37eb74cd8022fd1865123a61b5f635cdf5bb     0        200000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+5e48af6dc50c7c2348966c5a0612c601be6fc395033c9a2d5ff13a543e7aa08a     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+615a6220435a3b74d9c4d97c83019d22437c97b0348bf3672451e53d5e8a7ea3     1        4000000 lovelace + 80 9b3e6f70c480cf3cec9d35b1756aae541aef7ee516b6e6c858c56787.7161636f696e796e706a6530 + 80 9b3e6f70c480cf3cec9d35b1756aae541aef7ee516b6e6c858c56787.7161636f696e796e706a6531 + 80 9b3e6f70c480cf3cec9d35b1756aae541aef7ee516b6e6c858c56787.7161636f696e796e706a6532 + 80 9b3e6f70c480cf3cec9d35b1756aae541aef7ee516b6e6c858c56787.7161636f696e796e706a6533 + 80 9b3e6f70c480cf3cec9d35b1756aae541aef7ee516b6e6c858c56787.7161636f696e796e706a6534 + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+6674c5ced941116aadacc1f04098fc72a05c7d4c1fa004d0f0e405639786e0c4     1        199820998 lovelace + TxOutDatumNone
+671b672f22fde3e020c8d43d3e74b61b48e649528f76f6822f1818abcac7cb8d     0        2000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+674253b1f75b4b8998d01b8a9e6a65ce5bae56982dafd33583be29fc08792128     1        4000000 lovelace + 80 c8742e833f81c5071fe6498403866890f5d670c894e53b43b259f9c4.7161636f696e69736c6f6530 + 80 c8742e833f81c5071fe6498403866890f5d670c894e53b43b259f9c4.7161636f696e69736c6f6531 + 80 c8742e833f81c5071fe6498403866890f5d670c894e53b43b259f9c4.7161636f696e69736c6f6532 + 80 c8742e833f81c5071fe6498403866890f5d670c894e53b43b259f9c4.7161636f696e69736c6f6533 + 80 c8742e833f81c5071fe6498403866890f5d670c894e53b43b259f9c4.7161636f696e69736c6f6534 + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+6f3e4d7ef801f6af92d86f38260eb28d54e9e82e7de67f9a854a778fa926a852     0        10222223 lovelace + TxOutDatumNone
+7133463f5a00aadcb7e4659c46510fb1cfc377fdba4267abd0a4dca3f2aecdb0     0        4146220 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b050617274206f66205075626b65792068656572657265727265 + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [ScriptDataMap [(ScriptDataBytes "name",ScriptDataBytes "Plutus Pioneer Certificate of t"),(ScriptDataBytes "image",ScriptDataBytes "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgoKPHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICA8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjEwMCIgc3R5bGU9ImZpbGw6cmdiKDAsMCwyNTUpO3N0cm9rZS13aWR0aDozO3N0cm9rZTpyZ2IoMCwwLDApIiAvPgogICA8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+CiAgICAgIGNvbnNvbGUubG9nKCJ0ZXN0Iik7CiAgIDwvc2NyaXB0Pgo8L3N2Zz4K"),(ScriptDataBytes "description",ScriptDataBytes "Awarded for the completion of the Plutus Pioneer program exam")]])
+734de746397c86896281c06da1ed05ae06b5c063d822368cb61592a1039ec758     0        10222223 lovelace + TxOutDatumNone
+75814a086dcfe6a2ca90de2191411c76a5ca627d3c51488e5b0f9fab66f2d401     0        4684970 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b0696e6a65637454657374 + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [ScriptDataMap [(ScriptDataBytes "name",ScriptDataBytes "Plutus Pioneer Certificate of Thomas"),(ScriptDataBytes "image",ScriptDataBytes "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgoKPHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICA8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjEwMCIgc3R5bGU9ImZpbGw6cmdiKDAsMCwyNTUpO3N0cm9rZS13aWR0aDozO3N0cm9rZTpyZ2IoMCwwLDApIiAvPgogICAgPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPjwhW0NEQVRBWwogICAgICAgIHZhciBzdmcgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnZXh0ZXJuYWwtMScpOwogICAgICAgIGNvbnNvbGUubG9nKHN2Zyk7CiAgICAgICAgY29uc29sZS5sb2coMSA8IDIpOwogICAgXV0+PC9zY3JpcHQ+Cjwvc3ZnPgo="),(ScriptDataBytes "description",ScriptDataBytes "Awarded for the completion of the Plutus Pioneer program exam")]])
+75d9f7f7990507a61bc84959c7491dd538605a140c36a894fd8ebc37fac85d28     0        3000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [])
+79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d213e569dbe573a3a0     0        50000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [])
+7c164282f10514077f58e64ae5e4b3b7aeb8a8aa95cd63c1c53e9465317339bf     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+7c21fc4f827411f9bbd57d8aaa4bd13ab270dce2380b32632c7ae0793b5ff95f     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+824ed869244af971aff4b404b22fcfdbfc34950188f9289f0afa55eadc4534c3     0        200000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+8680c19dad502bc0e2b2547868f5e1543003cc4fb6aa1c3f122f47319ac6f8d8     0        1241280 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b0505050204365727469666963617465313030 + TxOutDatumHash ScriptDataInBabbageEra "801d592fa8d6afb2b607c09a6541f251e170bab5b629e403c8a4e00036d5b6a3"
+885f2b65a9e20a1f883f8824df616669df8b066aae6c1c60a033d7e4d786eaab     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+8cda6e58d56fa9278a88df19af9176644a458f4cb7222a0e365981bebdd7cbf8     1        5000000 lovelace + TxOutDatumNone
+90cbdb57b114ea1e76d4359765d9d49c422ad2ce567f899a3ce10922c01e5337     0        10000000 lovelace + TxOutDatumNone
+9147c5935f3d608d8d86ca28bb9a46ed6acb7d7b0bed950c9bb30304aeaa211a     0        2000161 lovelace + TxOutDatumNone
+923d55ade77383535abdf8e76a6468086b36d64d88a68c6b7acee386344dcef7     1        4000000 lovelace + 80 bcfd65f6e2a6428e536eaaa25cd2c4d333dee1679812be8268c28271.7161636f696e6b6869677630 + 80 bcfd65f6e2a6428e536eaaa25cd2c4d333dee1679812be8268c28271.7161636f696e6b6869677631 + 80 bcfd65f6e2a6428e536eaaa25cd2c4d333dee1679812be8268c28271.7161636f696e6b6869677632 + 80 bcfd65f6e2a6428e536eaaa25cd2c4d333dee1679812be8268c28271.7161636f696e6b6869677633 + 80 bcfd65f6e2a6428e536eaaa25cd2c4d333dee1679812be8268c28271.7161636f696e6b6869677634 + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+94af5fb1d84c9b4162553472bc96e1dccdfd50626485756d7529667896e682fe     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+9ac1c5df49382f2e0c6930ed1a638337955dbb9c06b114341630d0b353f4d17d     0        3000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [])
+aaa351d862fcfe021ea8200a970f0e3fe1ceb7feabc8bead68aec3a9e9107610     0        1228350 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b0505050204365727469666963617465 + TxOutDatumHash ScriptDataInBabbageEra "cb31a5d03d905f3bab533cf16bf3eb7fbc297ebb40dceca6e42082342d5e1b44"
+ab7d1a3d46884713a0fdce99dc67276ae562ea82f5e834652a60a477591ae899     0        2000161 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataNumber 42)
+b1e642d9ad7cae87a7ee7011f95eef615f791caa39c8058279739f7f3f3a80a8     0        200000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+b6d8385e0810466c19b30f2a675558bcb130ae752fc05b1968a7cdb61e4a2cfc     0        3456789 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataNumber 123)
+b70845ee02fb35aadf475ff653395043db8be126ed999a05592476eda7ba9b75     0        1000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [])
+bf2fa986f19786bc26b0049819fdf33d044f8d48715ca7d73b4ac08621058386     1        199820998 lovelace + TxOutDatumNone
+c5460ffa7932acb2b64fa13fd8a096f700c4de6dc6d22929d9420236ea96e379     0        4167770 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b050617274206f66205075626b65792068656572657265727265 + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [ScriptDataMap [(ScriptDataBytes "name",ScriptDataBytes "Plutus Pioneer Certificate of Thomas"),(ScriptDataBytes "image",ScriptDataBytes "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgoKPHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICA8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjEwMCIgc3R5bGU9ImZpbGw6cmdiKDAsMCwyNTUpO3N0cm9rZS13aWR0aDozO3N0cm9rZTpyZ2IoMCwwLDApIiAvPgogICA8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+CiAgICAgIGNvbnNvbGUubG9nKCJ0ZXN0Iik7CiAgIDwvc2NyaXB0Pgo8L3N2Zz4K"),(ScriptDataBytes "description",ScriptDataBytes "Awarded for the completion of the Plutus Pioneer program exam")]])
+c776d0deb716ee724ff712480a2eb46199536ac484e71a76c48c610802a4c67a     0        2400161 lovelace + TxOutDatumNone
+c9633e5a1cb371441fd5d67be1e0433b21943ef4db56fdd78d7b6a4b975ac83e     1        4000000 lovelace + 80 419cdf181a8707908955c025bdc866c8155ca678f115ad7b43cdc991.7161636f696e73776e747230 + 80 419cdf181a8707908955c025bdc866c8155ca678f115ad7b43cdc991.7161636f696e73776e747231 + 80 419cdf181a8707908955c025bdc866c8155ca678f115ad7b43cdc991.7161636f696e73776e747232 + 80 419cdf181a8707908955c025bdc866c8155ca678f115ad7b43cdc991.7161636f696e73776e747233 + 80 419cdf181a8707908955c025bdc866c8155ca678f115ad7b43cdc991.7161636f696e73776e747234 + TxOutDatumHash ScriptDataInBabbageEra "fcaa61fb85676101d9e3398a484674e71c45c3fd41b492682f3b0054f4cf3273"
+ca7bd70e5af07f7cbb7882a27dac19b4f25c4e85b3c698d5ce7abec9c4aa1f01     1        87820206 lovelace + TxOutDatumNone
+cad5e0b8f008fe7f8b65368938f743e6243769c2058a3dd06f8f2802e11caa26     0        1241280 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b0505050204365727469666963617465313030 + TxOutDatumHash ScriptDataInBabbageEra "cb31a5d03d905f3bab533cf16bf3eb7fbc297ebb40dceca6e42082342d5e1b44"
+cc8b1357c01b3eac27907b5947062d907774c0140b362c7faf80c5eada89a169     0        4340170 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b0696e6a6563745465736f6f6f6f6f6f74 + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [ScriptDataMap [(ScriptDataBytes "name",ScriptDataBytes "Plutus Pioneer Certificate oftttt"),(ScriptDataBytes "image",ScriptDataBytes "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgoKPHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICA8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjEwMCIgc3R5bGU9ImZpbGw6cmdiKDAsMCwyNTUpO3N0cm9rZS13aWR0aDozO3N0cm9rZTpyZ2IoMCwwLDApIiAvPgogICAgPHNjcmlwdCBub25jZT0ickFuZDBtIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPjwhW0NEQVRBWwogICAgICAgIGNvbnNvbGUubG9nKCJISSBmcm9tIG5hbWkiKTsKICAgIF1dPjwvc2NyaXB0Pgo8L3N2Zz4K"),(ScriptDataBytes "description",ScriptDataBytes "Awarded for the completion of the Plutus Pioneer program exam")]])
+cd3f87d1c926eeb4b7693fa839156f65c2e536415fa1ed670e1e3e4053c4f0ae     0        1000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataNumber 42)
+cf877f769af65db429a0981ea1f9d0422601b838909260a9bb17c26e8593b86a     0        4124670 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b050617274206f66205075626b6579206865656574 + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [ScriptDataMap [(ScriptDataBytes "name",ScriptDataBytes "Plutus Pioneer Certificate of t"),(ScriptDataBytes "image",ScriptDataBytes "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgoKPHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICA8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjEwMCIgc3R5bGU9ImZpbGw6cmdiKDAsMCwyNTUpO3N0cm9rZS13aWR0aDozO3N0cm9rZTpyZ2IoMCwwLDApIiAvPgogICA8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+CiAgICAgIGNvbnNvbGUubG9nKCJ0ZXN0Iik7CiAgIDwvc2NyaXB0Pgo8L3N2Zz4K"),(ScriptDataBytes "description",ScriptDataBytes "Awarded for the completion of the Plutus Pioneer program exam")]])
+d30f2d49b2cb7ab04516446fbb15ff3b67285c585af6d885e020457d6c1bd2f6     0        10000000000 lovelace + TxOutDatumNone
+d80fe2e40d0631d9f2c8d00d7faae7fdfad4c86346178eaa89811712cf73cacf     0        1288690 lovelace + 1 b0826dec72712df74f72251e2cb98cae8cd83adad2aabf04645ca42d.000643b027fa9b2ac96b35829b84f16a913f1e22fabd4a792ab0b7537f9a74a8 + TxOutDatumHash ScriptDataInBabbageEra "f5a2e43bbb27372802a32251ee3f52db49d20f5388ef1677624d5b1e1e634b3e"
+d93abf41f0a669d1b83761915f492f24cdabaaa00323d395ec73d5c9eb066681     0        10000000 lovelace + TxOutDatumNone
+dbf6f6a90204c71fd76ead6d60b206b6e0afd0a937379f3ee3631c622470507d     0        9232020 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b050617274206f66205075626b65792068656572657265727265 + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [ScriptDataMap [(ScriptDataBytes "name",ScriptDataBytes "Plutus Pioneer Certificate of Thomas"),(ScriptDataBytes "image",ScriptDataBytes "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iODUwIiB4bWxuczp2PSJodHRwczovL3ZlY3RhLmlvL25hbm8iPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iQSIgeDE9IjI4LjUiIHkxPSIyNzIuMjUiIHgyPSI1MjguNSIgeTI9IjI3Mi4yNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZmlsbD0iIzFjMTczNyIgZD0iTTAgMGg2MDB2ODUwSDB6Ii8+PHBhdGggZD0iTTMyMy45OCAwTDI3MCA3My4zMjhsMjE4LjcgMzA2LjY3TDYwMCAzNDQuNjY2Vi0uMDA0SDMyMy45OHoiIGZpbGw9IiMyNDNjNjIiLz48ZyB0cmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAuOTk5OCAyMS41IDI3LjgwNCkiIGZpbGw9IiNmZmYiPjxwYXRoIGQ9Ik0xMTguMiAyMDYuMWg0NC45djMxNi4yaC00NC45eiIvPjxyYWRpYWxHcmFkaWVudCAgY3g9IjI3OC41MiIgY3k9IjI3Mi4yNSIgcj0iMjUwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZmlsbD0idXJsKCNBKSIgZmlsbC1vcGFjaXR5PSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjZmZmIiBvZmZzZXQ9IjAiLz48c3RvcCBzdG9wLWNvbG9yPSIjMWE3OWFlIiBvZmZzZXQ9Ii42Ii8+PHN0b3Agc3RvcC1jb2xvcj0iIzE3NDZhMCIgb2Zmc2V0PSIxIi8+PC9yYWRpYWxHcmFkaWVudD48cGF0aCBkPSJNMjguNSAyMi40djQ5OS44SDczVjE2Mi42aDMxMy40VjM4MEgyOTh2NTMuOGgxMzguOFYxMTIuOUg3M1Y3Mmg0MDUuNHY0MDAuMUgyNTh2LTQwLjdsLjUtNDkuMXYtNDMuMWg0NS4zbDIuNS0uMWgzOC40VjIwNC4ySDIwOS40djMxOGgzMTkuMXYtNTAwem0yNjkuMSAyMzEuOHYzNS45aC0zOS4ydi0zNS45eiIvPjwvZz48dGV4dCB0cmFuc2Zvcm09InNjYWxlKDEuMDAwMSAuOTk5ODkpIiB4PSIzMDAuMTA4IiB5PSI2NzQuMDU4IiBmaWxsPSIjZmZmIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSI5OS42OTUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIHhtbDpzcGFjZT0icHJlc2VydmUiPjx0c3BhbiB4PSIzMDAuMTA4IiB5PSI2NzQuMDU4Ij5QTFVUVVM8L3RzcGFuPjx0c3BhbiB4PSIzMDAuMTA4IiB5PSI3OTguNjc3Ij5DRVJUSUZJRUQ8L3RzcGFuPjwvdGV4dD48L3N2Zz4="),(ScriptDataBytes "description",ScriptDataBytes "Awarded for the completion of the Plutus Pioneer program exam")]])
+e1061fa34646d999f85de2670d22c5e5a9ee9b8320362c13398237e387c04570     0        10000000 lovelace + TxOutDatumNone
+e543ee1a50b42f0e9f4d492599b5074cb5afadd98c4860ccf5c57916d528aa28     0        4297070 lovelace + 1 79dc2cb93b706af32fe1ef3b3fb014b98ef83be6b5c1a0c6e9aa8f83.000643b0696e6a65637454657374 + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [ScriptDataMap [(ScriptDataBytes "name",ScriptDataBytes "Plutus Pioneer Certificate of"),(ScriptDataBytes "image",ScriptDataBytes "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgoKPHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICA8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjEwMCIgc3R5bGU9ImZpbGw6cmdiKDAsMCwyNTUpO3N0cm9rZS13aWR0aDozO3N0cm9rZTpyZ2IoMCwwLDApIiAvPgogICAgPHNjcmlwdCBub25jZT0ickFuZDBtIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPjwhW0NEQVRBWwogICAgICAgIGNvbnNvbGUubG9nKCJISSBmcm9tIG5hbWkiKTsKICAgIF1dPjwvc2NyaXB0Pgo8L3N2Zz4K"),(ScriptDataBytes "description",ScriptDataBytes "Awarded for the completion of the Plutus Pioneer program exam")]])
+e8cd579f361a926dd4fea8400325910f2fa87276d30a8bd3decdcbf03668cbd8     0        3000000 lovelace + TxOutDatumInline ReferenceTxInsScriptsInlineDatumsInBabbageEra (ScriptDataConstructor 0 [])
+e9b6bc5693a8fe241cd816385835937986e2cf72c8459758f8cd22c61ac695c1     1        87820206 lovelace + TxOutDatumNone
+f0bb1d9050977cbcaa32db1762747a332a6b872de1eda3131af389c2c1a90d9b     0        3210000 lovelace + TxOutDatumNone
+f0c2041590513600774032ad4f678cdd7c03fe1e046b20796347e27b829317c7     0        50000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "9e1199a988ba72ffd6e9c269cadb3b53b5f360ff99f112d9b2ee30c4d74ad88b"
+f0c2041590513600774032ad4f678cdd7c03fe1e046b20796347e27b829317c7     1        70000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "a318ee67737d7d19b425d9500db52ae0e6b8e6b0d87b421995221a18fa02eec7"
+f0c2041590513600774032ad4f678cdd7c03fe1e046b20796347e27b829317c7     2        500000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "a318ee67737d7d19b425d9500db52ae0e6b8e6b0d87b421995221a18fa02eec7"
+f0c2041590513600774032ad4f678cdd7c03fe1e046b20796347e27b829317c7     3        200000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "9e1199a988ba72ffd6e9c269cadb3b53b5f360ff99f112d9b2ee30c4d74ad88b"
+f509790bbcea4a21eeb65d8f486979e6b0c7a91a89588fcbdab09c1118b4d77e     0        1146460 lovelace + 19 c0f8644a01a6bf5db02f4afe30d604975e63dd274f1098a1738e561d + TxOutDatumHash ScriptDataInBabbageEra "923918e403bf43c34b4ef6b48eb2ee04babed17320d8d1b9ff9ad086e86f44ec"
+facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6     0        50000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "9e1199a988ba72ffd6e9c269cadb3b53b5f360ff99f112d9b2ee30c4d74ad88b"
+facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6     1        70000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "a318ee67737d7d19b425d9500db52ae0e6b8e6b0d87b421995221a18fa02eec7"
+facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6     2        500000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "a318ee67737d7d19b425d9500db52ae0e6b8e6b0d87b421995221a18fa02eec7"
+facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6     3        200000000 lovelace + TxOutDatumHash ScriptDataInBabbageEra "9e1199a988ba72ffd6e9c269cadb3b53b5f360ff99f112d9b2ee30c4d74ad88b"
+ff476d6a827e8d779171a3fcea7185875f3c0adec0aeb8a1ed8b103dfe443562     0        2400161 lovelace + TxOutDatumHash ScriptDataInBabbageEra "9e1199a988ba72ffd6e9c269cadb3b53b5f360ff99f112d9b2ee30c4d74ad88b"
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kcode/week    Week02/ass    /scripts/collect-gift.sh bob 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d213e569dbe573a3a0 [1@ facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d213e569dbe573a33a0[At@8078b7c5a56c:/workspace# code/Week02/scripts/collect-gift.sh bob facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d2[14@13e569dbe573a3[A6c:/workspace# code/Week02/scripts/collect-gift.sh bob facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6$ 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d[1@2[Aot@8078b7c5a56c:/workspace# code/Week02/scripts/collect-gift.sh bob facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6$ 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d2[1P[Aoot@8078b7c5a56c:/workspace# code/Week02/scripts/collect-gift.sh bob facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6# 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d[1@2[Aot@8078b7c5a56c:/workspace# code/Week02/scripts/collect-gift.sh bob facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6#3 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40[1@d[Aot@8078b7c5a56c:/workspace# code/Week02/scripts/collect-gift.sh bob facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6#3
+0d213e569dbe573a3a0#0
+Command failed: transaction build  Error: The followings tx inputs were expected to be key witnessed but are actually script witnessed: ["facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6#3"]
+Command failed: transaction sign  Error: /workspace/code/Week02/assets/collect-gift.txbody: /workspace/code/Week02/assets/collect-gift.txbody: openFile: does not exist (No such file or directory)
+Command failed: transaction submit  Error: /workspace/code/Week02/assets/collect-gift.tx: /workspace/code/Week02/assets/collect-gift.tx: openFile: does not exist (No such file or directory)
+Command failed: transaction txid  Error: /workspace/code/Week02/assets/collect-gift.tx: /workspace/code/Week02/assets/collect-gift.tx: openFile: does not exist (No such file or directory)
+transaction id: 
+Cardanoscan: https://preview.cardanoscan.io/transaction/
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kcode/Week02/scripts/collect-gift.sh bob facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6#3 79e143b6539c46d59c96d5b462ec9242c835fa0538aa400d213e569dbe573a3a0#0[Aroot@8078b7c5a56c:/workspace# code/Week02/scripts/collect-gift.sh bob facdccb9e2ab643eec2248dca3867375aae235741d8f32e2a9d21512a26a21c6#3 79e143b6539c46d59c96d5b462ec9242c835fa0538aa3[45P 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d213e569dbe573a3a0#0
+[K[Aroot@8078b7c5a56c:/workspace# code/Week02/scripts/collect-gift.sh bob  79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d213e569dbe573a3a0#0 46fea6905ea30a3569307aa2e0da20bd30a7da081dc9ee486d67b060a8aba83d4#0
+Command failed: transaction build  Error: The followings tx inputs were expected to be key witnessed but are actually script witnessed: ["79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d213e569dbe573a3a0#0"]
+Command failed: transaction sign  Error: /workspace/code/Week02/assets/collect-gift.txbody: /workspace/code/Week02/assets/collect-gift.txbody: openFile: does not exist (No such file or directory)
+Command failed: transaction submit  Error: /workspace/code/Week02/assets/collect-gift.tx: /workspace/code/Week02/assets/collect-gift.tx: openFile: does not exist (No such file or directory)
+Command failed: transaction txid  Error: /workspace/code/Week02/assets/collect-gift.tx: /workspace/code/Week02/assets/collect-gift.tx: openFile: does not exist (No such file or directory)
+transaction id: 
+Cardanoscan: https://preview.cardanoscan.io/transaction/
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kcode/Week02/scripts/collect-gift.sh bob  79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d213e569dbe573a3a0#0 46fea6905ea30a3569307aa2e0da20bd30a7da081dc9ee486d67b060a8aba83d4#0[Akspace# code/Week02/scripts/collect-gift.sh bob  79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d213e569dbe573a3a0#0 [K
+[K[Aroot@8078b7c5a56c:/workspace# code/Week02/scripts/collect-gift.sh bob  79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d213e569dbe573a3a0#0 [K[Kbob 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d213e569dbe573a3a0#0bob
+option --tx-in: 
+unexpected end of input
+expecting transaction id (hexadecimal)
+
+Usage: cardano-cli transaction build 
+            [ --byron-era
+            | --shelley-era
+            | --allegra-era
+            | --mary-era
+            | --alonzo-era
+            | --babbage-era
+            ]
+            [ --shelley-mode
+            | --byron-mode [--epoch-slots NATURAL]
+            | --cardano-mode [--epoch-slots NATURAL]
+            ]
+            (--mainnet | --testnet-magic NATURAL)
+            [--script-valid | --script-invalid]
+            [--witness-override WORD]
+            (--tx-in TX-IN
+              [ --spending-tx-in-reference TX-IN
+                --spending-plutus-script-v2
+                ( --spending-reference-tx-in-datum-cbor-file CBOR FILE
+                | --spending-reference-tx-in-datum-file JSON FILE
+                | --spending-reference-tx-in-datum-value JSON VALUE
+                | --spending-reference-tx-in-inline-datum-present
+                )
+                ( --spending-reference-tx-in-redeemer-cbor-file CBOR FILE
+                | --spending-reference-tx-in-redeemer-file JSON FILE
+                | --spending-reference-tx-in-redeemer-value JSON VALUE
+                )
+              | --simple-script-tx-in-reference TX-IN
+              | --tx-in-script-file FILE
+                [
+                  ( --tx-in-datum-cbor-file CBOR FILE
+                  | --tx-in-datum-file JSON FILE
+                  | --tx-in-datum-value JSON VALUE
+                  | --tx-in-inline-datum-present
+                  )
+                  ( --tx-in-redeemer-cbor-file CBOR FILE
+                  | --tx-in-redeemer-file JSON FILE
+                  | --tx-in-redeemer-value JSON VALUE
+                  )]
+              ])
+            [--read-only-tx-in-reference TX-IN]
+            [--required-signer FILE | --required-signer-hash HASH]
+            [--tx-in-collateral TX-IN]
+            [--tx-out-return-collateral ADDRESS VALUE]
+            [--tx-total-collateral INTEGER]
+            [--tx-out ADDRESS VALUE
+              [ --tx-out-datum-hash HASH
+              | --tx-out-datum-hash-cbor-file CBOR FILE
+              | --tx-out-datum-hash-file JSON FILE
+              | --tx-out-datum-hash-value JSON VALUE
+              | --tx-out-datum-embed-cbor-file CBOR FILE
+              | --tx-out-datum-embed-file JSON FILE
+              | --tx-out-datum-embed-value JSON VALUE
+              | --tx-out-inline-datum-cbor-file CBOR FILE
+              | --tx-out-inline-datum-file JSON FILE
+              | --tx-out-inline-datum-value JSON VALUE
+              ]
+              [--tx-out-reference-script-file FILE]]
+            --change-address ADDRESS
+            [--mint VALUE
+              ( --mint-script-file FILE
+                [ --mint-redeemer-cbor-file CBOR FILE
+                | --mint-redeemer-file JSON FILE
+                | --mint-redeemer-value JSON VALUE
+                ]
+              | --simple-minting-script-tx-in-reference TX-IN --policy-id HASH
+              | --mint-tx-in-reference TX-IN
+                --mint-plutus-script-v2
+                ( --mint-reference-tx-in-redeemer-cbor-file CBOR FILE
+                | --mint-reference-tx-in-redeemer-file JSON FILE
+                | --mint-reference-tx-in-redeemer-value JSON VALUE
+                )
+                --policy-id HASH
+              )]
+            [--invalid-before SLOT]
+            [--invalid-hereafter SLOT]
+            [--certificate-file CERTIFICATEFILE
+              [ --certificate-script-file FILE
+                [ --certificate-redeemer-cbor-file CBOR FILE
+                | --certificate-redeemer-file JSON FILE
+                | --certificate-redeemer-value JSON VALUE
+                ]
+              | --certificate-tx-in-reference TX-IN
+                --certificate-plutus-script-v2
+                ( --certificate-reference-tx-in-redeemer-cbor-file CBOR FILE
+                | --certificate-reference-tx-in-redeemer-file JSON FILE
+                | --certificate-reference-tx-in-redeemer-value JSON VALUE
+                )
+              ]]
+            [--withdrawal WITHDRAWAL
+              [ --withdrawal-script-file FILE
+                [ --withdrawal-redeemer-cbor-file CBOR FILE
+                | --withdrawal-redeemer-file JSON FILE
+                | --withdrawal-redeemer-value JSON VALUE
+                ]
+              | --withdrawal-tx-in-reference TX-IN
+                --withdrawal-plutus-script-v2
+                ( --withdrawal-reference-tx-in-redeemer-cbor-file CBOR FILE
+                | --withdrawal-reference-tx-in-redeemer-file JSON FILE
+                | --withdrawal-reference-tx-in-redeemer-value JSON VALUE
+                )
+              ]]
+            [--json-metadata-no-schema | --json-metadata-detailed-schema]
+            [--auxiliary-script-file FILE]
+            [--metadata-json-file FILE | --metadata-cbor-file FILE]
+            [--genesis FILE | --protocol-params-file FILE]
+            [--update-proposal-file FILE]
+            (--out-file FILE | --calculate-plutus-script-cost FILE)
+
+  Build a balanced transaction (automatically calculates fees)
+
+  [93mPlease note [4mthe order[93;22;23;24m of some cmd options is crucial. If used incorrectly may produce undesired tx body. See nested [] notation above for details.[0;22;23;24m
+Command failed: transaction sign  Error: /workspace/code/Week02/assets/collect-gift.txbody: /workspace/code/Week02/assets/collect-gift.txbody: openFile: does not exist (No such file or directory)
+Command failed: transaction submit  Error: /workspace/code/Week02/assets/collect-gift.tx: /workspace/code/Week02/assets/collect-gift.tx: openFile: does not exist (No such file or directory)
+Command failed: transaction txid  Error: /workspace/code/Week02/assets/collect-gift.tx: /workspace/code/Week02/assets/collect-gift.tx: openFile: does not exist (No such file or directory)
+transaction id: 
+Cardanoscan: https://preview.cardanoscan.io/transaction/
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kq scrpts  its[Kls
+README.md  [0m[01;34mcardano-private-testnet-setup[0m  [01;34mcode[0m  [01;34mdocs[0m  [01;34mkeys[0m  [01;34mscripts[0m  typescript
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# scripts/query-      ls
+bash: scripts/ls: No such file or directory
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# scripts/ls   ls     [1@ls[1@s[1@ 
+[0m[01;32malias-serve-docs-demeter.sh[0m  [01;32mcreate-key-pair.sh[0m  [01;32mquery-address.sh[0m  [01;32mquery-tip.sh[0m
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# ls scripts/[1Pscripts/ls  query-address.sh $(cat keys// boba .addr  )
+                           TxHash                                 TxIx        Amount
+--------------------------------------------------------------------------------------
+dab40fcec27e29dc01101b7e488d315160aec285e5e6a11993a55ce734d85360     0        10000000000 lovelace + TxOutDatumNone
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kscripts/query-address.sh $(cat keys/bob.addr)ls scripts/[K[1Pscripts/lsls[Kcode/Week02/scripts/collect-gift.sh bob 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d213e569dbe573a3a0#0sh bob [1@ dab40fcec27e29dc01101b7e488d315160aec285e5e6a11993 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d213e569dbe573a33a0#0[A8078b7c5a56c:/workspace# code/Week02/scripts/collect-gift.sh bob dab40fcec27e29dc01101b7e488d315160aec285e5e6a11993a55ce734d85360 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d2[14@13e569dbe573a3[A6c:/workspace# code/Week02/scripts/collect-gift.sh bob dab40fcec27e29dc01101b7e488d315160aec285e5e6a11993a55ce734d85360# 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40d[1@2[Aot@8078b7c5a56c:/workspace# code/Week02/scripts/collect-gift.sh bob dab40fcec27e29dc01101b7e488d315160aec285e5e6a11993a55ce734d85360#0 79e143b6539c46d59c96d5b462ec9242c835fa0538aa40[1@d[Aot@8078b7c5a56c:/workspace# code/Week02/scripts/collect-gift.sh bob dab40fcec27e29dc01101b7e488d315160aec285e5e6a11993a55ce734d85360#0
+
+Estimated transaction fee: Lovelace 170774
+Transaction successfully submitted.
+transaction id: 7a01216f3b81169559320fd0f2fac57631273de79bd41cbb9da71392c677d568
+Cardanoscan: https://preview.cardanoscan.io/transaction/7a01216f3b81169559320fd0f2fac57631273de79bd41cbb9da71392c677d568
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kcode/Week02/scripts/collect-gift.sh bob dab40fcec27e29dc01101b7e488d315160aec285e5e6a11993a55ce734d85360#0 79e143b6539c46d59c96d5b462ec9242c835fa0538aa400d213e569dbe573a3a0#0[Arkspace# scripts/query-address.sh $(cat keys/bob.addr)[K
+[K[Aroot@8078b7c5a56c:/workspace# scripts/query-address.sh $(cat keys/bob.addr)
+                           TxHash                                 TxIx        Amount
+--------------------------------------------------------------------------------------
+7a01216f3b81169559320fd0f2fac57631273de79bd41cbb9da71392c677d568     0        49829226 lovelace + TxOutDatumNone
+dab40fcec27e29dc01101b7e488d315160aec285e5e6a11993a55ce734d85360     0        10000000000 lovelace + TxOutDatumNone
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# [Kcabal repl  
+Resolving dependencies...
+Build profile: -w ghc-8.10.7 -O1
+In order, the following will be built (use -v for more details):
+ - fake-package-0 (lib) (first run)
+Configuring library for fake-package-0..
+Preprocessing library for fake-package-0..
+Warning: No exposed modules
+GHCi, version 8.10.7: https://www.haskell.org/ghc/  :? for help
+Loaded GHCi configuration from /tmp/cabal-repl.-55856/setcwd.ghci
+[?1h=Prelude> import PlututsTx.Blu[K[Kuil[K[K[K[K[K[K[K[K[KsTx.Builtins
+[?1l>
+[;1m<no location info>: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+    Could not load module `PlutusTx.Builtins'
+    It is a member of the hidden package `plutus-tx-1.0.0.0'.
+    Perhaps you need to add `plutus-tx' to the build-depends in your .cabal file.[0m[0m
+[0m[0m[0m[?1h=Prelude> 
+[?1l>Leaving GHCi.
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# ls
+README.md  [0m[01;34mcardano-private-testnet-setup[0m  [01;34mcode[0m  [01;34mdocs[0m  [01;34mkeys[0m  [01;34mscripts[0m  typescript
+]0;root@8078b7c5a56c: /workspaceroot@8078b7c5a56c:/workspace# cd code/we  Week02/
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# ls
+README.md  Week02.cabal  [0m[01;34massets[0m  hie.yaml  [01;34mhomework[0m  [01;34mlecture[0m  [01;34mscripts[0m  [01;34mtests[0m
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# cabal repl  
+Build profile: -w ghc-8.10.7 -O1
+In order, the following will be built (use -v for more details):
+ - week02-0.1.0.0 (lib) (ephemeral targets)
+Preprocessing library for week02-0.1.0.0..
+GHCi, version 8.10.7: https://www.haskell.org/ghc/  :? for help
+Ok, 7 modules loaded.
+[?1h=Prelude Gift> import Pluu[KtusTxins.Bui[K[K[K[K[K[K[K.Builtins
+[?1l>[?1h=Prelude PlutusTx.Builtins Gift> mkI 42
+[?1l>I 42
+[?1h=Prelude PlutusTx.Builtins Gift> :l assets/cusom[12D[K[3D[K:l Lec[K[K[Klecture/Cs[Kusom[K[KtomTypes.hs 
+[?1l>Ok, one module loaded.
+[?1h=Prelude PlutusTx.Builtins CustomTypes> :i Mysi[K[KA[KSillyRedeemer 
+[?1l>type MySillyRedeemer :: *
+newtype MySillyRedeemer = MkMySillyRedeemer Integer
+  	-- Defined in `CustomTypes'
+[?1h=Prelude PlutusTx.Builtins CustomTypes> saveVal 
+[?1l>Serialized script to: ./assets/customtypes.plutus
+[?1h=Prelude PlutusTx.Builtins CustomTypes> import Plu[K[K[K[K[K[K[K[K[K[KsaveVal [8D:i MySillyRedeemer 
+[?1l>type MySillyRedeemer :: *
+newtype MySillyRedeemer = MkMySillyRedeemer Integer
+  	-- Defined in `CustomTypes'
+[?1h=Prelude PlutusTx.Builtins CustomTypes> import PlutusTx
+[?1l>[?1h=Prelude PlutusTx.Builtins PlutusTx CustomTypes> import PlutusTx[15D:i MySillyRedeemer 
+[?1l>type MySillyRedeemer :: *
+newtype MySillyRedeemer = MkMySillyRedeemer Integer
+  	-- Defined in `CustomTypes'
+instance FromData MySillyRedeemer -- Defined in `CustomTypes'
+instance ToData MySillyRedeemer -- Defined in `CustomTypes'
+instance UnsafeFromData MySillyRedeemer -- Defined in `CustomTypes'
+[?1h=Prelude PlutusTx.Builtins PlutusTx CustomTypes> :[Kimport Prelue[Kde [K
+[?1l>[?1h=PlutusTx.Builtins PlutusTx Prelude CustomTypes> xor[3D[K:tr[K xor
+[?1l>
+[;1m<interactive>:1:1: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+    * Variable not in scope: xor
+    * Perhaps you meant `or' (imported from Prelude)[0m[0m
+[0m[0m[0m[?1h=PlutusTx.Builtins PlutusTx Prelude CustomTypes> :t [3D[K
+[?1l>Leaving GHCi.
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# cabal rt  test  
+Build profile: -w ghc-8.10.7 -O1
+In order, the following will be built (use -v for more details):
+ - week02-0.1.0.0 (lib) (file homework/Homework2.hs changed)
+ - week02-0.1.0.0 (test:week02-homework) (dependency rebuilt)
+Preprocessing library for week02-0.1.0.0..
+Building library for week02-0.1.0.0..
+[1 of 7] Compiling Burn             ( lecture/Burn.hs, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/Burn.o, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/Burn.dyn_o )
+[2 of 7] Compiling CustomTypes      ( lecture/CustomTypes.hs, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/CustomTypes.o, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/CustomTypes.dyn_o )
+[3 of 7] Compiling FortyTwoTyped    ( lecture/FortyTwoTyped.hs, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/FortyTwoTyped.o, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/FortyTwoTyped.dyn_o )
+[4 of 7] Compiling Gift             ( lecture/Gift.hs, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/Gift.o, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/Gift.dyn_o )
+[5 of 7] Compiling FortyTwo         ( lecture/FortyTwo.hs, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/FortyTwo.o, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/FortyTwo.dyn_o )
+[6 of 7] Compiling Homework1        ( homework/Homework1.hs, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/Homework1.o, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/Homework1.dyn_o )
+[7 of 7] Compiling Homework2        ( homework/Homework2.hs, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/Homework2.o, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/Homework2.dyn_o )
+Preprocessing test suite 'week02-homework' for week02-0.1.0.0..
+Building test suite 'week02-homework' for week02-0.1.0.0..
+[1 of 1] Compiling Main             ( tests/THomework.hs, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/t/week02-homework/build/week02-homework/week02-homework-tmp/Main.o ) [Homework1 changed]
+Linking /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/t/week02-homework/build/week02-homework/week02-homework ...
+Running 1 test suites...
+Test suite week02-homework: RUNNING...
+[?25lHomework tests
+  Testing Homework1
+    Case: (True, True):           [32;22mOK[m[32;22m (0.06s)[m[32;22m
+[m    Case: (True, False):          [32;22mOK[m[32;22m
+[m    Case: (False, True):          [32;22mOK[m[32;22m
+[m    Case: (False, False):         [91;1mFAIL[m[91;1m
+[m[31;22m      src/Plutus/Model/Contract.hs:689:
+      Slot 6: Generic fail: Expected action to fail but it succeeds
+      Use -p '/Case: (False, False)/' to rerun this test only.
+[m  Testing Homework2
+    Case: MyRedeemer True True:   [32;22mOK[m[32;22m
+[m    Case: MyRedeemer True False:  [32;22mOK[m[32;22m
+[m    Case: MyRedeemer False True:  [32;22mOK[m[32;22m
+[m    Case: MyRedeemer False False: [32;22mOK[m[32;22m
+[m[?25h
+[91;1m1 out of 8 tests failed[m[91;1m (0.09s)
+[mTest suite week02-homework: FAIL
+Test suite logged to:
+/workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/t/week02-homework/test/week02-0.1.0.0-week02-homework.log
+0 of 1 test suites (0 of 1 test cases) passed.
+cabal: Tests failed for test:week02-homework from week02-0.1.0.0.
+
+]0;root@8078b7c5a56c: /workspace/code/Week02root@8078b7c5a56c:/workspace/code/Week02# cabal test
+Build profile: -w ghc-8.10.7 -O1
+In order, the following will be built (use -v for more details):
+ - week02-0.1.0.0 (lib) (file homework/Homework1.hs changed)
+ - week02-0.1.0.0 (test:week02-homework) (dependency rebuilt)
+Preprocessing library for week02-0.1.0.0..
+Building library for week02-0.1.0.0..
+[7 of 7] Compiling Homework1        ( homework/Homework1.hs, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/Homework1.o, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/build/Homework1.dyn_o )
+Preprocessing test suite 'week02-homework' for week02-0.1.0.0..
+Building test suite 'week02-homework' for week02-0.1.0.0..
+[1 of 1] Compiling Main             ( tests/THomework.hs, /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/t/week02-homework/build/week02-homework/week02-homework-tmp/Main.o ) [Homework1 changed]
+Linking /workspace/code/dist-newstyle/build/x86_64-linux/ghc-8.10.7/week02-0.1.0.0/t/week02-homework/build/week02-homework/week02-homework ...
+Running 1 test suites...
+Test suite week02-homework: RUNNING...
+[?25lHomework tests
+  Testing Homework1
+    Case: (True, True):           [32;22mOK[m[32;22m (0.06s)[m[32;22m
+[m    Case: (True, False):          [32;22mOK[m[32;22m
+[m    Case: (False, True):          [32;22mOK[m[32;22m
+[m    Case: (False, False):         [32;22mOK[m[32;22m
+[m  Testing Homework2
+    Case: MyRedeemer True True:   [32;22mOK[m[32;22m
+[m    Case: MyRedeemer True False:  [32;22mOK[m[32;22m
+[m    Case: MyRedeemer False True:  [32;22mOK[m[32;22m
+
