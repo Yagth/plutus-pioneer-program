@@ -24,6 +24,6 @@
     "copy-webpack-plugin": "^11.0.0",
     "lucid-cardano": "^0.9.1",
     "popper.js": "^1.16.1",
-    "web3": "^1.8.2"
+    "web3": "^1.10.0"
   }
 }
